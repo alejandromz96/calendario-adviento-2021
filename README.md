@@ -1,3 +1,5 @@
-# Node Boilerplate
+# Proyecto Calendario Adviento
 
-Node Boilerplate from BinPar TypeScript Projects
+https://adventjs.dev/challenges
+
+Cada persona deberá crearse una rama para realizar los retos que desee.
