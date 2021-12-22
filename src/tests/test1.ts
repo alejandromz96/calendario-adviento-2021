@@ -19,6 +19,6 @@ test('Count sheeps', (): void => {
   ];
   const filteredSheeps = filterSheeps(sheeps);
   expect(filteredSheeps).toHaveLength(2);
-  expect(filteredSheeps).toContain({name: 'Noa', color: Color.Red});
-  expect(filteredSheeps).toContain({name: 'Novita', color: Color.Red});
+  expect(filteredSheeps).toContainEqual({name: 'Noa', color: Color.Red});
+  expect(filteredSheeps).toContainEqual({name: 'Novita', color: Color.Red});
 });
